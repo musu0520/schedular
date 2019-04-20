@@ -4,20 +4,20 @@ int main()
 {
 int k=1,n,min,p[10]={1,2,3,4,5,6,7,8,9,10},btime=0,i;
 int sum=0,temp,wt[10],j,tt[10],at[10],ta=0,bt[10];
-tsum=0,tavg=0,wsum=0, float wavg=0;
+float tsum=0,tavg=0,wsum=0,  wavg=0;
 printf(" -------Shortest Job First Scheduling ( NP )-------\n");
 printf("\nEnter the No. of processes :");
 scanf("%d",&n);
  
 for(i=0;i<n;i++)
 {
-  If(i==0)
+  if(i==0)
    {
-    Printf("error occurred");
+    printf("error occurred");
    }
-   Else
+   else
    {
-    Printf("no error");
+    printf("no error");
    }
 printf("\tEnter the burst time of %d process :",i+1);
 scanf(" %d",&bt[i]);
@@ -47,8 +47,8 @@ bt[i]=temp;
 }
  
 
-Arrival time and Execution Time
-Execution time => Arrival time
+//Arrival time and Execution Time
+//Execution time => Arrival time
 
  
 for(j=0;j<n;j++)
